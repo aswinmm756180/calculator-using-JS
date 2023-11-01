@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>casio calculator</title>
+    <link rel="stylesheet" href="/calculator.css">
+</head>
+<body>
+    <div class="container">
+        <h3 class="model">CASIO</h3>
+        <input id = "screen" type ="text" name = "answer"><br><br>
+
+
+        <input class="butn" type = "button" value = "1" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "2" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "3" onclick = "btnclick(value)">  
+        <input class="butn cal" type = "button" value = "/" onclick = "btnclick(value)"> <br><br>  
+
+        <input class="butn" type = "button" value = "4" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "5" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "6" onclick = "btnclick(value)">  
+        <input class="butn cal" type = "button" value = "*" onclick = "btnclick(value)"> <br><br>  
+
+
+        <input class="butn" type = "button" value = "7" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "8" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "9" onclick = "btnclick(value)">  
+        <input class="butn cal" type = "button" value = "+" onclick = "btnclick(value)"> <br><br>  
+
+
+        <input class="butn clear" type = "button" value = "C" onclick = "clearscreen()">  
+        <input class="butn" type = "button" value = "0" onclick = "btnclick(value)">  
+        <input class="butn" type = "button" value = "=" onclick = "findresult()">  
+        <input class="butn cal" type = "button" value = "-" onclick = "btnclick(value)"> <br><br>  
+    </div>
+
+
+    <h1 id="result"></h1>
+    
+
+
+
+
+    <script src="/calculator.js"></script>
+</body>
+</html>
